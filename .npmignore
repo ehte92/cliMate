@@ -1,0 +1,7 @@
+.env
+.vscode
+.vercel
+vercel.json
+_includes
+api
+icons/images
