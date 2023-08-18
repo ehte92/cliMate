@@ -25,7 +25,7 @@
         "email": "ehte92@gmail.com"
     },
     "license": "GNU v3",
-    "homepage": "https://github.com/ehte/climate",
+    "homepage": "https://github.com/ehte92/cliMate",
     "dependencies": {
         "axios": "^1.4.0",
         "chalk": "^4.1.0",
