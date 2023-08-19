@@ -31,10 +31,10 @@
         "chalk": "^4.1.0",
         "cli-table3": "^0.6.3",
         "dotenv": "^16.3.1",
-        "enquirer": "^2.4.1",
+        "enquirer": "^2.3.6",
         "express": "^4.18.2",
         "moment": "^2.29.4",
-        "ora": "^7.0.1"
+        "ora": "^5.4.1"
     },
     "devDependencies": {
         "asciify-image": "^0.1.10",
