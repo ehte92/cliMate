@@ -31,6 +31,7 @@
 - [🧩 Modules](#-modules)
 - [🚀 Getting Started](#-getting-started)
   - [📦 Installation](#-installation)
+- [Uninstall](#uninstall)
   - [🎮 Using cliMate](#-using-climate)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
@@ -136,28 +137,89 @@ repo
 
 ### 📦 Installation
 
-1. Clone the cliMate repository:
+> You need NodeJs 14 or later to run this tool.
 
-```sh
-git clone https://github.com/ehte92/cliMate
+```bash
+npm install climatey -g
 ```
 
-2. Change to the project directory:
+## Uninstall
 
-```sh
-cd cliMate
-```
-
-3. Install the dependencies:
-
-```sh
-npm install
+```bash
+npm remove climatey -g
 ```
 
 ### 🎮 Using cliMate
 
-```sh
-npm start
+```dotnetcli
+$ climate
+
+✔ City Name or Zip Code: · New York
+
+
+                                                                     11ttffffLLfffftt11
+    Weather : clear sky                                          ttffLLLLLLLLLLLLLLLLLLfftt
+    Temperature : 21.55°C                                    11ffLLLLLLLLLLLLLLLLLLLLLLLLLLff11
+    Humidity : 74%                                         11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+    Visibility : 10000m                                  11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+    Pressure : 1018 hPa                                  ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff
+    Wind Speed : 3.6 m/s                               ttLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLtt
+    Wind Direction : 250deg                            ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff
+    Wind Gust : n\a                                  11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+    Cloudiness : No                                  ttLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLtt
+    Precipitation : No                               ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff
+    Rain : No                                        LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+    Snow : No                                        LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+    Sunrise : 2:12:08 PM                             LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+    Sunset : 3:46:41 AM                              ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff
+    TimeZone : -14400                                ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff
+    City : New York                                  ttLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLtt
+    Latitude : 40.7143                               11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+    Longitude : -74.006                                ttLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLtt
+    Time : Monday, 21st August 2023, 2:47:30 PM        11ffLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLff11
+                                                         11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+                                                           11LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL11
+                                                             11ffLLLLLLLLLLLLLLLLLLLLLLLLLLff11
+                                                               11ttLLLLLLLLLLLLLLLLLLLLLLtt11
+                                                                   11ttffffLLLLLLfffftt11
+
+
+ Weather Forecast 🔮:
+┌──────────────────────┬─────────────┬──────────────────┬──────────┬────────────┬─────────┬───────┬────────┬──────┐
+│         Time         │ Temperature │ Weather          │ Humidity │ Visibility │ Wind    │ Cloud │ Rain   │ snow │
+├────────────┬─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Morning │ 24.04°C     │ overcast clouds  │ 59%      │ 10000m     │ 5.68m/s │ 100%  │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Noon    │ 19.84°C     │ overcast clouds  │ 53%      │ 10000m     │ 6.41m/s │ 100%  │ No     │ no   │
+│ Tue 22 Aug ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Evening │ 23.26°C     │ scattered clouds │ 43%      │ 10000m     │ 5.52m/s │ 46%   │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Night   │ 26.20°C     │ broken clouds    │ 35%      │ 10000m     │ 3.78m/s │ 66%   │ No     │ no   │
+├────────────┼─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Morning │ 23.19°C     │ overcast clouds  │ 44%      │ 10000m     │ 1.63m/s │ 94%   │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Noon    │ 19.91°C     │ few clouds       │ 49%      │ 10000m     │ 4.24m/s │ 11%   │ No     │ no   │
+│ Wed 23 Aug ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Evening │ 23.56°C     │ clear sky        │ 34%      │ 10000m     │ 3.02m/s │ 3%    │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Night   │ 26.18°C     │ clear sky        │ 29%      │ 10000m     │ 2.11m/s │ 2%    │ No     │ no   │
+├────────────┼─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Morning │ 21.84°C     │ few clouds       │ 50%      │ 10000m     │ 3.47m/s │ 15%   │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Noon    │ 19.98°C     │ few clouds       │ 56%      │ 10000m     │ 1.65m/s │ 12%   │ No     │ no   │
+│ Thu 24 Aug ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Evening │ 21.66°C     │ overcast clouds  │ 56%      │ 10000m     │ 3.32m/s │ 100%  │ No     │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Night   │ 23.19°C     │ overcast clouds  │ 52%      │ 10000m     │ 5.95m/s │ 99%   │ No     │ no   │
+├────────────┼─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Morning │ 21.58°C     │ light rain       │ 68%      │ 10000m     │ 6.94m/s │ 99%   │ 0.85mm │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Noon    │ 20.45°C     │ moderate rain    │ 87%      │ 10000m     │ 7.46m/s │ 100%  │ 6.81mm │ no   │
+│ Fri 25 Aug ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Evening │ 23.03°C     │ light rain       │ 82%      │ 10000m     │ 5.07m/s │ 100%  │ 1.69mm │ no   │
+│            ├─────────┼─────────────┼──────────────────┼──────────┼────────────┼─────────┼───────┼────────┼──────┤
+│            │ Night   │ 25.12°C     │ light rain       │ 73%      │ 10000m     │ 3.27m/s │ 100%  │ 0.28mm │ no   │
+└────────────┴─────────┴─────────────┴──────────────────┴──────────┴────────────┴─────────┴───────┴────────┴──────┘
 ```
 
 ---

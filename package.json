@@ -1,5 +1,5 @@
 {
-    "name": "climate",
+    "name": "climatey",
     "version": "1.0.0",
     "description": "☀️ CliMate: Your go-to weather command-line tool! 🌧 Get current conditions, forecasts, and more, all in the comfort of your terminal. 🌡️🌪️",
     "main": "bin/climate.js",
@@ -23,6 +23,10 @@
     "author": {
         "name": "Ehtesham",
         "email": "ehte92@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ehte92/cliMate"
     },
     "license": "GNU v3",
     "homepage": "https://github.com/ehte92/cliMate",
